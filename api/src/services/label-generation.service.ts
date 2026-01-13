@@ -31,7 +31,7 @@ export async function generateLocalLabel(req: LabelRequest): Promise<Buffer> {
 
   const pageWidth = 4;
   const pageHeight = 6;
-  const leftMargin = 0.9;
+  const leftMargin = 0.25;
   const rightMargin = 0.2;
   const topMargin = 0.25;
   const bottomMargin = 0.25;
